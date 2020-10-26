@@ -196,12 +196,12 @@
 //// Overview
 .overview {
 	display: flex;
-	justify-content: space-between;
 
 	&__heading {
 	}
 
 	&__stars {
+		margin-right: auto; // auto margin right next to the stars so the stars will not 'occupy' the whole space
 	}
 
 	&__icon-star,
