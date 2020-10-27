@@ -317,8 +317,8 @@
 	&__item::before {
 		content: '';
 		display: inline-block;
-		height: 2rem;
-		width: 2rem;
+		height: 1rem;
+		width: 1rem;
 		margin-right: 0.7rem;
 
 		// Older browsers
@@ -329,7 +329,35 @@
 		background-color: var(--color-primary);
 		-webkit-mask-image: url(../img/chevron-thin-right.svg);
 		-webkit-mask-size: cover;
+		mask-image: url(../img/chevron-thin-right.svg); // in case future browsers do support it
+		mask-size: cover;
 	}
 }
 
 //// Recommend
+.recommend {
+	font-size: 1.3rem;
+	color: var(--color-grey-dark-3);
+
+	display: flex;
+	align-items: center;
+
+	&__count {
+		margin-right: auto;
+	}
+
+	&__friends {
+	}
+
+	&__photo {
+		box-sizing: content-box;
+		height: 4rem;
+		width: 4rem;
+		border-radius: 50%;
+		border: 3px solid #fff;
+
+		&:not(:last-child) {
+			margin-right: -1.5rem;
+		}
+	}
+}
