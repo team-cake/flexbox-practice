@@ -232,6 +232,30 @@ body {
     transform: scale(1);
     box-shadow: none; } }
 
+.paragraph:not(:last-of-type) {
+  margin-bottom: 2rem; }
+
+.list {
+  list-style: none;
+  margin: 3rem 0;
+  padding: 3rem 0;
+  border-top: var(--line);
+  border-bottom: var(--line);
+  display: flex;
+  flex-wrap: wrap; }
+  .list__item {
+    flex: 0 0 50%;
+    margin-bottom: 0.7rem; }
+  .list__item::before {
+    content: '';
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.7rem;
+    background-color: var(--color-primary);
+    -webkit-mask-image: url(../img/chevron-thin-right.svg);
+    -webkit-mask-size: cover; }
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;
@@ -260,7 +284,6 @@ body {
 
 .hotel-view {
   background-color: #fff;
-  height: 80rem;
   flex: 1; }
 
 .detail {
@@ -270,6 +293,7 @@ body {
   border-bottom: var(--line); }
 
 .description {
+  font-size: 1.4rem;
   background-color: #fff;
   box-shadow: --shadow-light;
   padding: 3rem;
@@ -277,5 +301,5 @@ body {
   margin-right: 4.5rem; }
 
 .user-reviews {
-  background-color: yellowgreen;
+  background-color: #fff;
   flex: 1; }
