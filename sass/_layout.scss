@@ -39,6 +39,7 @@
 }
 
 .detail {
+	font-size: 1.4rem;
 	display: flex;
 	padding: 4.5rem;
 	background-color: var(--color-grey-light-1);
@@ -46,7 +47,7 @@
 }
 
 .description {
-	font-size: 1.4rem;
+	font-size: inherit;
 	background-color: #fff;
 	box-shadow: --shadow-light;
 	padding: 3rem;
@@ -55,6 +56,6 @@
 }
 
 .user-reviews {
-	background-color: #fff;
+	font-size: inherit;
 	flex: 1;
 }
