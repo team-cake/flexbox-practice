@@ -1,6 +1,7 @@
 # Flexbox - Practice
 
-A simple website to practice some flexbox skills!
+A simple website to practice some flexbox skills!  
+Would you like to have a look? [Click here!](https://team-cake.github.io/flexbox-practice/)
 
 ---
 
@@ -24,6 +25,7 @@ Well, it's super simple. Just needed a mock up website to practice my flexbox sk
 ## Images
 
 ![Flexboxpreview](https://github.com/team-cake/flexbox-practice/blob/readme/img/flexboxpreview.gif)
+Want to check out the deployed site? ![Click here!](https://team-cake.github.io/flexbox-practice/)
 
 ---
 
