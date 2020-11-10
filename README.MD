@@ -19,7 +19,7 @@ Would you like to have a look? [Click here!](https://team-cake.github.io/flexbox
 
 ## Statement of Purpose
 
-Well, it's super simple. Just needed a mock up website to practice my flexbox skills :)
+Well, it's super simple. Just needed a mock up website to learn some flexbox skills :)
 
 ---
 
