@@ -1,4 +1,4 @@
-# Flexbox - Practice
+# Trillo - Flexbox Practice
 
 A simple, static website to practice some flexbox skills!  
 Would you like to have a look? [Click here!](https://team-cake.github.io/flexbox-practice/)
