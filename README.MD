@@ -12,7 +12,8 @@ Would you like to have a look? [Click here!](https://team-cake.github.io/flexbox
 - [Technologies](#technologies)
 - [Project Status](#project-status)
 - [Setup](#setup)
-- [Contact](#contact)
+- [Contact](#contact)  
+- [Credits](#credits)
 
 ---
 
@@ -65,3 +66,9 @@ $ npm run install
 ## Contact
 
 Created by [Alex Cheuk](https://www.linkedin.com/in/alex-cheuk/) - feel free to contact me!
+
+---  
+
+## Credits
+
+Credits to Jonas Schmedtmann for designing this website on his awesome Udemy [course](https://www.udemy.com/course/advanced-css-and-sass/)!
